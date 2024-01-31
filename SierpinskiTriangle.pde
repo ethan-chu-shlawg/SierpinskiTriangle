@@ -16,7 +16,6 @@ public void draw()
     num+=10;
     sierpinski(100,900,num);
     upsideSierpinski(880,122,num);
-    System.out.println(num);
     if(num <= 780)
       num = 790;
   }
@@ -26,7 +25,6 @@ public void draw()
     num-=10;
     sierpinski(100,900,num);
     upsideSierpinski(880,122,num);
-    System.out.println(num);
     if(num <= 780)
       num = 790;
   }
